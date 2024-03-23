@@ -11,9 +11,4 @@
     <import resource="services.xml"/>
     <import resource="presentation.xml"/>
 
-    <bean id="loginCtrl" class="org.academiadecodigo.javabank.controller.LoginController">
-        <property name="authService" ref="authService"/>
-        <property name="view" ref="loginView"/>
-        <property name="nextController" ref="mainCtrl"/>
-    </bean>
 </beans>
